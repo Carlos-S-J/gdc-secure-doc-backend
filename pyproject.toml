@@ -1,0 +1,20 @@
+[project]
+name = "devstar1075"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cloud-sql-python-connector[pg8000]>=1.19.0",
+    "fastapi[standard]>=0.124.4",
+    "google-cloud-aiplatform>=1.132.0",
+    "langchain>=1.2.0",
+    "langchain-community>=0.4.1",
+    "langchain-google-vertexai>=3.2.0",
+    "langchain-text-splitters>=1.1.0",
+    "pgvector>=0.4.2",
+    "pypdf>=6.4.2",
+    "scikit-learn>=1.8.0",
+    "sqlalchemy>=2.0.45",
+    "uvicorn>=0.38.0",
+]
